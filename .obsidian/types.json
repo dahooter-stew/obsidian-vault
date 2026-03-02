@@ -1,0 +1,20 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "units": "number",
+    "fia": "multitext",
+    "schedule": "multitext",
+    "date": "date",
+    "module": "number",
+    "section": "number",
+    "deadline": "datetime",
+    "type": "multitext",
+    "total score": "number",
+    "score": "number",
+    "prerequisite/s": "multitext",
+    "submission": "multitext",
+    "finished": "checkbox"
+  }
+}

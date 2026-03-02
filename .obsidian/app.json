@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "_templates/"
+  ],
+  "vimMode": true,
+  "tabSize": 2,
+  "showLineNumber": true
+}

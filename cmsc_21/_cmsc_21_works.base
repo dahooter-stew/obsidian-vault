@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("school/schoolwork")
+        - subject == link("CMSC 21")
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - finished
+      - file.name
+      - deadline
+      - total score
+      - score
+      - type
+      - submission
+    sort:
+      - property: finished
+        direction: ASC
+      - property: deadline
+        direction: ASC
