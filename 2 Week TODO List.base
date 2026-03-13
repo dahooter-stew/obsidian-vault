@@ -1,0 +1,26 @@
+formulas:
+  Untitled: ""
+  Untitled 2: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("school/schoolwork")
+        - deadline <= (today() + "1w") && deadline >= (today() - "1w")
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - subject
+      - finished
+      - file.name
+      - deadline
+      - type
+      - score
+      - total score
+    sort:
+      - property: subject
+        direction: ASC
+    columnSize:
+      note.deadline: 247

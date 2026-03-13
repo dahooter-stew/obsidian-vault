@@ -12,6 +12,8 @@ tags:
   - "#school/subjects/cmsc_21"
 ---
 ---
+# Fundamentals of Programming
+---
 # Schedule
 
 | **Type**   | **Day/s**         | **Time**           |

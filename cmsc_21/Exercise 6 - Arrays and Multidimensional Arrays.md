@@ -1,5 +1,5 @@
 ---
-finished: false
+finished: true
 subject: "[[CMSC 21]]"
 deadline: 2026-03-10T13:00:00
 type:
